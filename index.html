@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Politique de confidentialité — Dans le Mille / Privacy policy — Bang On</title>
-  <meta name="description" content="Dans le Mille / Bang On ne collecte aucune donnée personnelle. Bang On does not collect any personal data.">
+  <meta name="description" content="Ce que Dans le Mille / Bang On envoie (rapports de plantage, statistiques d’usage anonymes) et ce qui reste sur ton téléphone. What Bang On sends and what stays on your phone.">
   <style>
     :root { color-scheme: light dark; --bg: #f4f5f8; --fg: #12151c; --muted: #5b6475; --card: #fff; --accent: #d62839; }
     @media (prefers-color-scheme: dark) { :root { --bg: #0b0d12; --fg: #f4f6fa; --muted: #8a93a6; --card: #151922; --accent: #e63946; } }
@@ -17,40 +17,149 @@
     section { background: var(--card); border-radius: 16px; padding: 20px 20px 8px; margin-bottom: 20px; }
     ul { padding-left: 20px; } li { margin-bottom: 8px; }
     a { color: var(--accent); }
+    table { border-collapse: collapse; width: 100%; font-size: 15px; margin-bottom: 16px; display: block; overflow-x: auto; }
+    th, td { border-top: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); padding: 8px 6px; text-align: left; vertical-align: top; }
+    h3 { font-size: 18px; margin: 20px 0 8px; }
   </style>
 </head>
 <body>
 <main>
   <h1>Politique de confidentialité — Dans le Mille<br>Privacy policy — Bang On</h1>
-  <p class="date">Dernière mise à jour / Last updated: 2026-09-25</p>
+  <p class="date">Dernière mise à jour / Last updated: 2026-10-30 (app 1.6.0)</p>
   <p class="lang"><a href="#fr">Français</a><a href="#en">English</a></p>
 
   <section id="fr" lang="fr">
     <h2>Français</h2>
-    <p><strong>Dans le Mille ne collecte aucune donnée personnelle.</strong></p>
-    <ul>
-      <li><strong>Aucun compte, aucun serveur.</strong> L’app fonctionne entièrement hors ligne. Elle n’envoie rien sur Internet.</li>
-      <li><strong>Données stockées sur ton appareil uniquement :</strong> noms et avatars des joueurs, parties, fléchettes, statistiques, cibles perso, phrases et réglages. Tout est dans une base locale.</li>
-      <li><strong>Micro :</strong> il n’est utilisé que lorsque tu maintiens le bouton d’enregistrement, pour créer tes annonces personnalisées. Les fichiers audio restent sur ton appareil.</li>
-      <li><strong>Synthèse vocale :</strong> les annonces utilisent le moteur de synthèse vocale du système.</li>
-      <li><strong>Aucune publicité, aucun outil d’analyse, aucun traceur tiers.</strong></li>
-      <li><strong>Suppression :</strong> désinstaller l’app efface toutes ses données.</li>
-    </ul>
-    <p>Contact : <a href="mailto:valentin.drelon@icloud.com">valentin.drelon@icloud.com</a></p>
+<h3>En bref</h3>
+<p>Dans le Mille marche hors ligne, sans compte et sans pub. Tes joueurs, tes parties et tes enregistrements restent sur ton téléphone.</p>
+<p>Depuis la version 1.6.0, pour corriger les bugs plus vite et savoir quoi améliorer, l'app envoie deux choses : des <strong>rapports de plantage</strong> et des <strong>statistiques d'usage anonymes</strong> (quels écrans et fonctions servent). Elles ne contiennent ni ton nom, ni celui de tes joueurs, ni tes parties, ni tes enregistrements. Rien n'est vendu ni utilisé pour de la pub. Tu peux couper les statistiques dans <strong>Réglages &gt; Confidentialité</strong>.</p>
+<p>Avant la version 1.6.0, l'app n'envoyait rien sur Internet.</p>
+<h3>Ce qui reste sur ton téléphone</h3>
+<p>Noms et avatars des joueurs, parties, fléchettes, statistiques, exercices du Coach, cibles perso, phrases, enregistrements audio et réglages. Tout est dans une base locale. Le micro ne sert que pendant un enregistrement, et les fichiers audio ne quittent pas ton appareil, sauf si tu les envoies toi-même à un autre téléphone avec la fonction de transfert.</p>
+<h3>Ce qui est envoyé, et pourquoi</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Rapports de plantage</th>
+<th>Statistiques d'usage anonymes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Outil</td>
+<td>Sentry (Functional Software, Inc.), région de données UE (Francfort)</td>
+<td>PostHog (PostHog, Inc.), PostHog Cloud UE (Francfort)</td>
+</tr>
+<tr>
+<td>Contenu</td>
+<td>l'erreur et l'endroit du code où elle s'est produite, les derniers écrans visités (sans leur contenu), la version de l'app, le modèle de téléphone, la version du système, la langue</td>
+<td>le nom de quelques actions (par exemple « partie commencée », « partie terminée », « exercice du Coach terminé »), le mode de jeu, le nombre de joueurs, l'écran affiché, la version de l'app et du système</td>
+</tr>
+<tr>
+<td>Identifiant</td>
+<td>un identifiant technique d'installation, sans lien avec toi</td>
+<td>un identifiant aléatoire propre à l'app, renouvelé tous les 12 mois</td>
+</tr>
+<tr>
+<td>Ce qui n'est jamais envoyé</td>
+<td>noms, parties, scores, enregistrements, textes saisis, adresse IP (non conservée), localisation, contacts, identifiant publicitaire</td>
+<td>pareil : rien de tout cela</td>
+</tr>
+<tr>
+<td>Pourquoi</td>
+<td>corriger les bugs plus vite, sans te demander de les signaler</td>
+<td>savoir quelles fonctions améliorer en priorité</td>
+</tr>
+<tr>
+<td>Base légale</td>
+<td>intérêt légitime : garder l'app stable</td>
+<td>intérêt légitime ; mesure d'audience anonyme exemptée de consentement selon les conditions de la CNIL, avec possibilité de la refuser</td>
+</tr>
+<tr>
+<td>Conservation</td>
+<td>30 jours</td>
+<td>12 mois</td>
+</tr>
+<tr>
+<td>Désactivation</td>
+<td>toujours actif, parce qu'il ne contient aucune donnée personnelle ; tu peux t'y opposer en écrivant à l'adresse ci-dessous</td>
+<td><strong>Réglages &gt; Confidentialité &gt; Statistiques d'usage anonymes</strong> : l'envoi s'arrête tout de suite, et ce qui attendait d'être envoyé est effacé</td>
+</tr>
+</tbody>
+</table>
+<p>Sans réseau, ces envois attendent sur le téléphone et partent au retour de la connexion. Ils ne ralentissent pas l'app et ne l'empêchent jamais de fonctionner.</p>
+<p>Sentry et PostHog agissent comme sous-traitants : ils n'utilisent pas ces données pour leur propre compte. Ce sont des sociétés américaines, mais les données sont stockées dans l'Union européenne ; un éventuel accès depuis les États-Unis est encadré par leurs accords de traitement des données (clauses contractuelles types de la Commission européenne). Aucune donnée n'est vendue, partagée avec des annonceurs ou utilisée pour te suivre entre applications.</p>
+<h3>Tes droits</h3>
+<p>Les données envoyées ne permettent pas de t'identifier : nous ne pouvons pas retrouver « tes » données dans ces outils. Tu peux couper les statistiques à tout moment, et désinstaller l'app efface tout ce qu'elle stocke sur ton téléphone. Pour toute question ou pour t'opposer aux rapports de plantage : <a href="mailto:valentin.drelon@icloud.com">valentin.drelon@icloud.com</a>. Tu peux aussi saisir la CNIL (cnil.fr).</p>
+<p>Contact : <a href="mailto:valentin.drelon@icloud.com">valentin.drelon@icloud.com</a></p>
   </section>
 
   <section id="en" lang="en">
     <h2>English</h2>
-    <p><strong>Bang On does not collect any personal data.</strong></p>
-    <ul>
-      <li><strong>No account, no server.</strong> The app works fully offline. It sends nothing over the Internet.</li>
-      <li><strong>Data stored on your device only:</strong> player names and avatars, games, darts, statistics, custom targets, phrases and settings. Everything lives in a local database.</li>
-      <li><strong>Microphone:</strong> it is only used while you hold the record button, to create your custom announcements. Audio files stay on your device.</li>
-      <li><strong>Text-to-speech:</strong> announcements use the system speech engine.</li>
-      <li><strong>No ads, no analytics, no third-party trackers.</strong></li>
-      <li><strong>Deletion:</strong> uninstalling the app deletes all of its data.</li>
-    </ul>
-    <p>Contact: <a href="mailto:valentin.drelon@icloud.com">valentin.drelon@icloud.com</a></p>
+<h3>In short</h3>
+<p>Bang On works offline, with no account and no ads. Your players, games and recordings stay on your phone.</p>
+<p>Since version 1.6.0, to fix bugs faster and know what to improve, the app sends two things: <strong>crash reports</strong> and <strong>anonymous usage statistics</strong> (which screens and features get used). They never contain your name, your players' names, your games or your recordings. Nothing is sold or used for advertising. You can turn statistics off in <strong>Settings &gt; Privacy</strong>.</p>
+<p>Before version 1.6.0, the app sent nothing over the Internet.</p>
+<h3>What stays on your phone</h3>
+<p>Player names and avatars, games, darts, statistics, Coach drills, custom targets, phrases, audio recordings and settings. Everything lives in a local database. The microphone is only used while you record, and audio files never leave your device unless you send them to another phone yourself with the transfer feature.</p>
+<h3>What is sent, and why</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Crash reports</th>
+<th>Anonymous usage statistics</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tool</td>
+<td>Sentry (Functional Software, Inc.), EU data region (Frankfurt)</td>
+<td>PostHog (PostHog, Inc.), PostHog EU Cloud (Frankfurt)</td>
+</tr>
+<tr>
+<td>Content</td>
+<td>the error and where in the code it happened, the last screens visited (not their content), app version, phone model, OS version, language</td>
+<td>the name of a few actions (for example "game started", "game finished", "Coach drill completed"), game mode, number of players, the screen shown, app and OS version</td>
+</tr>
+<tr>
+<td>Identifier</td>
+<td>a technical installation identifier, not linked to you</td>
+<td>a random app-specific identifier, renewed every 12 months</td>
+</tr>
+<tr>
+<td>Never sent</td>
+<td>names, games, scores, recordings, typed text, IP address (not stored), location, contacts, advertising identifier</td>
+<td>same: none of this</td>
+</tr>
+<tr>
+<td>Why</td>
+<td>fix bugs faster, without asking you to report them</td>
+<td>know which features to improve first</td>
+</tr>
+<tr>
+<td>Legal basis</td>
+<td>legitimate interest: keeping the app stable</td>
+<td>legitimate interest; anonymous audience measurement exempt from consent under the French data protection authority (CNIL) conditions, with the right to refuse it</td>
+</tr>
+<tr>
+<td>Retention</td>
+<td>30 days</td>
+<td>12 months</td>
+</tr>
+<tr>
+<td>Turning it off</td>
+<td>always on, because it contains no personal data; you can object by writing to the address below</td>
+<td><strong>Settings &gt; Privacy &gt; Anonymous usage statistics</strong>: sending stops at once and anything waiting to be sent is deleted</td>
+</tr>
+</tbody>
+</table>
+<p>Offline, these reports wait on the phone and are sent when you're back online. They never slow the app down or stop it from working.</p>
+<p>Sentry and PostHog act as processors: they do not use this data for their own purposes. They are US companies, but the data is stored in the European Union; any access from the United States is covered by their data processing agreements (European Commission standard contractual clauses). No data is sold, shared with advertisers or used to track you across apps.</p>
+<h3>Your rights</h3>
+<p>The data sent cannot identify you: we cannot find "your" data in these tools. You can turn statistics off at any time, and uninstalling the app deletes everything it stores on your phone. For any question, or to object to crash reports: <a href="mailto:valentin.drelon@icloud.com">valentin.drelon@icloud.com</a>. You can also complain to your data protection authority.</p>
+<p>Contact: <a href="mailto:valentin.drelon@icloud.com">valentin.drelon@icloud.com</a></p>
   </section>
 </main>
 </body>
